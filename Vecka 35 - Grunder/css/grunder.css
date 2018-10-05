@@ -1,0 +1,180 @@
+body {
+  background-image: url("../bilder/photo3.png");
+  background-position: 50%, 10%;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-attachment: fixed;
+}
+.test2 {
+  width: 80%;
+  background-color: #333333;
+  height: 10vw;
+  z-index: 1;
+  display: block;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  position: absolute;
+}
+.text3 {
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 150%;
+  margin-bottom: 30%;
+  font-size: 4vw;
+  text-align: center;
+  font-style: normal;
+  color: gray;
+  font-family: MySecondFont;
+
+
+}
+h1 {
+  top: 8%;
+  left: 50%;
+  position: absolute;
+  display: block;
+  text-align: center;
+  font-family: Myfont;
+  font-size: 6vw;
+  color: gray;
+  font-weight: 300;
+  text-underline-position: auto;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+}
+div.JustSomeText {
+  font-family: MySecondFont;
+  font-size: 1vw;
+  color: gray;
+  text-align: center;
+  position: absolute;
+  display: block;
+  margin-bottom: 5%;
+  outline: 3px solid white;
+  outline-offset: 10px;
+  top: 100%;
+  left: 20%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+}
+
+img {
+  max-width: 100%;
+}
+
+/*--------------------Fonts--------------------*/
+@font-face {
+  font-family: Myfont;
+  src: url('../Fonts/RolleteQaku-Regular.otf');
+}
+@font-face {
+  font-family: MySecondFont;
+  src: url('../Fonts/timeburnerbold.ttf');
+}
+/*---------------------------------------------*/
+
+/*------------------KeyFrames------------------*/
+@keyframes example {
+0% {opacity: 0;}
+100% {opacity: 1;}
+}
+/*---------------------------------------------*/
+
+.Html5_Logo_Animation {
+  animation-name: example;
+  animation-duration: 3s;
+  width: 8%;
+
+}
+
+.footer {
+  position: fixed;
+  width:79.9%;
+  height: 3vw;
+  bottom: 0;
+  left: 50%;
+  background-color: white;
+  color: white;
+  text-align: center;
+  z-index:100;
+  border:1.5px;
+  border-style: solid;
+  border-color: #DCDCDC;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+  cursor: cursor;
+  display: block;
+}
+
+.FooterParagraph {
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 7.5%;
+  top: 50%;
+  font-size: 0.7vw;
+  text-align: left;
+  font-style: normal;
+  color: gray;
+  font-family: MySecondFont;
+}
+
+a {
+  font-family: MySecondFont;
+  font-style: normal;
+  color: gray;
+  text-decoration: none;
+}
+
+.html5bilden {
+  width: 2%;
+  position: absolute;
+  left:90%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+  display: block;
+
+}
+
+.Header {
+  position: fixed;
+  width:79.9%;
+  height: 3vw;
+  top: 0;
+  left: 50%;
+  background-color: white;
+  color: white;
+  text-align: center;
+  z-index:100;
+  border:1.5px;
+  border-style: solid;
+  border-color: #DCDCDC;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+  cursor: cursor;
+  display: block;
+}
+
+ul {
+      list-style-type: none;
+      padding: 0;
+      overflow: hidden;
+
+}
+
+li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+li {
+    float: left;
+}
